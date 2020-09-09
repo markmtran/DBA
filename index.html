@@ -31,16 +31,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link hvr-underline-from-center" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mission Statement</a>
+          <a class="nav-link hvr-underline-from-center" href="#">Mission Statement</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Supporters</a>
+          <a class="nav-link hvr-underline-from-center" href="#">Supporters</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">How You Can Help</a>
+          <a class="nav-link hvr-underline-from-center" href="#">How You Can Help</a>
         </li>
       </ul>
     </div>
@@ -51,6 +51,7 @@
   <div class="icon-bar">
     <a target=_blank href="https://www.facebook.com/DontBankruptAmericaCoalition" class="facebook"><i class="fa fa-facebook"></i></a>
     <a target=_blank href="https://twitter.com/dontbankruptusa" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a target=_blank href="mailto:dbausa.balancedbudget@gmail.com" class="mail"><i class="fas fa-envelope"></i></a>
   </div>
   <!-- Icon Bar End-->
 
@@ -70,7 +71,7 @@
   <!-- About Start. Animation taken from michalsnik.github.io-->
   <div id="about-top" class="row">
     <div class="offset-md-1 col-md-6">
-      <h2 id="about-title">The name says it all   <i class="fas fa-arrow-down fa-xs"></i></h2>
+      <h2 id="about-title">The name says it all...</h2>
     </div>
   </div>
   <div id="about-mid" class="row">
@@ -112,58 +113,63 @@
             of state legislators, and eventually of national political leaders to solving <em><b>one of our nation's most critical problems</b></em>.</p>
         </div>
       </div>
-      <div class="row" data-aos="fade-up">
-        <div class="offset-md-4">
-          <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <div class="row" data-aos="fade-left">
+        <div class="col-md-12 d-flex justify-content-end">
+          <button id="learn-btn" type="button" class="btn-outline-dark"><em><b>Learn more</b> <i class="fas fa-arrow-right"></i></em></button>
         </div>
       </div>
     </div>
-
   </div>
   <!-- About End-->
 
   <!-- Contact Start-->
   <div id="contact-top" class="row">
     <div class="offset-md-1 col-md-6">
-      <h2 id="about-title">Contact Us<i class="fas fa-arrow-down fa-xs"></i></h2>
+      <h2 id="about-title">Contact Us <i class="fas fa-envelope fa-xs"></i></h2>
     </div>
   </div>
   <div class="row">
-    <div class="offset-md-1 col-md-4">
-      <form>
+    <div id="form-div" class="offset-md-1 col-md-4">
+      <form action="https://formspree.io/xdowqygg" method="POST" name="form">
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label class="form-label" for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+          <label class="form-label" for="email">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+          <label class="form-label" for="Subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="What is your message about?">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+        </div>
+        <div class="form-group">
+          <button id="submit" class="form-control" type="submit"><b>Submit</b></button>
         </div>
       </form>
     </div>
+    <div class="col-md-3 d-flex justify-content-end align-items-center" data-aos="fade-left">
+      <button id="learn-btn" type="button" class="btn-outline-dark"><em><b>See how YOU <br>
+        can help</b> <i class="fas fa-arrow-right"></i></em></button>
+    </div>
   </div>
   <!-- Contact End-->
-
+  <div id="arrow-up" class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <a id="bottom-arrow" href="#greeting"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+    </div>
+  </div>
+  <!-- Footer Start-->
+  <div id="footer" class="row d-flex justify-content-center align-items-center">
+    <footer>
+      <p>Copyright © 2020 Don't Bankrupt America
+    </footer>
+  </div>
+  <!-- Footer End -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

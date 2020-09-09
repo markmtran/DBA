@@ -1,5 +1,18 @@
 /*Icon Bar HTML taken from w3schools*/
-
+@font-face {
+  font-family: bigBad;
+  src: url(Basic-Commercial-LT-Com-Black.ttf);
+}
+body {
+  background-image: url('ladylight.jpg');
+  background-position: 24% 7%; 
+  background-attachment: fixed;
+}
+@media (max-width: 1200px) {
+  body {
+    background-size: cover;
+  }
+}
 nav {
   background-color: #31394d;
   font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -37,3 +50,47 @@ nav {
   background: #55ACEE;
   color: white;
 }
+
+#greeting {
+  margin-top: 250px;
+}
+.title {
+  font-family: bigBad, Arial, Helvetica, sans-serif;
+}
+
+#dont {
+  font-size: 66px;
+  letter-spacing: -2px;
+}
+#america {
+  position: relative;
+  bottom: 16px;
+  font-size: 100px;
+  letter-spacing: 6px;
+
+}
+
+#empower {
+  position: relative;
+  bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-style: italic;
+}
+#about-top {
+  margin-top: 220px;
+}
+#about-title {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 60px;
+}
+#about-mid {
+  margin-top: 30px;
+}
+.about-words {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-right: 70px;
+}
+
+

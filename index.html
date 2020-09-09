@@ -133,19 +133,19 @@
       <form action="https://formspree.io/xdowqygg" method="POST" name="form">
         <div class="form-group">
           <label class="form-label" for="name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
         </div>
         <div class="form-group">
           <label class="form-label" for="email">Email Address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required>
         </div>
         <div class="form-group">
           <label class="form-label" for="Subject">Subject</label>
-          <input type="text" class="form-control" id="subject" placeholder="What is your message about?">
+          <input type="text" class="form-control" id="subject" placeholder="What is your message about?" name="subject"  required>
         </div>
         <div class="form-group">
           <label class="form-label" for="message">Message</label>
-          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" name="message" required></textarea>
         </div>
         <div class="form-group">
           <button id="submit" class="form-control" type="submit"><b>Submit</b></button>

@@ -21,7 +21,7 @@
 </head>
 <body>
   <!-- Navbar taken from @Seke on CodePen-->
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#"><i class="fas fa-flag-usa"></i>
   Don't Bankrupt America</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,20 +56,20 @@
   <!-- Icon Bar End-->
 
   <!-- Greeting Start-->
-  <div id="greeting" class="row">
+  <div id="greeting" class="row" data-aos="fade-left">
     <div class="title offset-md-2 col-lg-10">
       <h1 id="dont">DON'T BANKRUPT <br><strong id="america">AMERICA.</strong></h1>
     </div>
   </div>
   <div class="row">
-    <div class="title offset-md-2 col-lg-10">
+    <div class="title offset-md-2 col-lg-10" data-aos="fade-left" data-aos-duration="1000">
       <h2 id="empower">Empower your state.</h1>
     </div>
   </div>
   <!-- Greeting End-->
 
   <!-- About Start. Animation taken from michalsnik.github.io-->
-  <div id="about-top" class="row">
+  <div id="about-top" class="row" data-aos="fade-right" data-aos-duration="3000">
     <div class="offset-md-1 col-md-6">
       <h2 id="about-title">The name says it all...</h2>
     </div>
@@ -123,7 +123,7 @@
   <!-- About End-->
 
   <!-- Contact Start-->
-  <div id="contact-top" class="row">
+  <div id="contact-top" class="row" data-aos="fade-right">
     <div class="offset-md-1 col-md-6">
       <h2 id="about-title">Contact Us <i class="fas fa-envelope fa-xs"></i></h2>
     </div>
@@ -141,7 +141,7 @@
         </div>
         <div class="form-group">
           <label class="form-label" for="Subject">Subject</label>
-          <input type="text" class="form-control" id="subject" placeholder="What is your message about?" name="subject"  required>
+          <input type="text" class="form-control" id="subject" placeholder="What is your message about?" name="subject" required>
         </div>
         <div class="form-group">
           <label class="form-label" for="message">Message</label>
@@ -152,7 +152,7 @@
         </div>
       </form>
     </div>
-    <div class="col-md-3 d-flex justify-content-end align-items-center" data-aos="fade-left">
+    <div class="col-md-3 d-flex justify-content-end align-items-center" data-aos="fade-left" data-aos-duration="2500">
       <button id="learn-btn" type="button" class="btn-outline-dark"><em><b>See how YOU <br>
         can help</b> <i class="fas fa-arrow-right"></i></em></button>
     </div>
@@ -160,13 +160,13 @@
   <!-- Contact End-->
   <div id="arrow-up" class="row">
     <div class="col-md-12 d-flex justify-content-center">
-      <a id="bottom-arrow" href="#greeting"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+      <a id="bottom-arrow" href="#nav"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
     </div>
   </div>
   <!-- Footer Start-->
   <div id="footer" class="row d-flex justify-content-center align-items-center">
     <footer>
-      <p>Copyright © 2020 Don't Bankrupt America
+      <p>Copyright © 2020 Don't Bankrupt America</p>
     </footer>
   </div>
   <!-- Footer End -->
